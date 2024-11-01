@@ -1,0 +1,26 @@
+{
+  "name": "burhandodhy/simple-woocommerce-customizer",
+  "description": "Simple Woocommerce Customizer",
+  "authors": [
+    {
+      "name": "Burhan Nasir",
+      "email": "burhandodhy@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "SimpleWoocommerceCustomizer\\": "includes/classes/"
+    }
+  },
+  "require-dev": {
+    "10up/wp_mock": "dev-dev",
+    "10up/phpcs-composer": "dev-master"
+  },
+  "scripts": {
+    "lint": "phpcs .",
+    "lint-fix": "phpcbf ."
+  }
+}
